@@ -44,7 +44,7 @@ b = 0
 for _ in range(iterations):
     # Se define la hipotesis (hypotesis = θx + b)
     h = θ * x + b
-    # Calculamos el costo (que tan equivocados estamos con nuestra hipotesis(h) con el valor real(y))
+    # Calculamos el costo con el metodo MSE Mean Square Error(que tan equivocados estamos con nuestra hipotesis(h) con el valor real(y))
     errors = h - y
     #los valores b_gradient y θ_gradient calculan cuanto tienen que modificarse θ y b para acercarse 
 	# mas a la respuesta correcta
@@ -68,9 +68,9 @@ print("Predicted y:", predicted_y)
 
 # Paso 5: Visualizar los resultados
 # con la libreria matplotlib plotearemos los datos de kaggle y la linea regresiva que hemos creado
-plt.scatter(x, y, label='Data')
+plt.scatter(x, y, label='Datos')
 plt.plot(x, θ * x + b, color='red', label='Regresion Lineal')
-plt.xlabel('x')
-plt.ylabel('y')
+plt.xlabel('gpa')
+plt.ylabel('study hours')
 plt.legend()
 plt.show()
