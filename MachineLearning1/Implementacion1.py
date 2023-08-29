@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 # Paso 1: Cargar los datos
 #En mi variable data_path  anexo el path donde se encuentran los datos que quiero utilizar.
-data_path = r"C:\Users\Flavio Ruvalcaba\Documents\Escuela\Universidad\7_Semestre\InteligenciaArtificialGpo101\inputData\gpa_study_hours.csv"
+data_path = "inputData/gpa_study_hours.csv"
 #Con la libreria pandas, utilizo el metodo read_csv para poder acceder al documento csv.
 data = pd.read_csv(data_path)
 # En la variable x e y identifico las columnas de la tabla de datos que quiero buscar su relacion.
