@@ -1,21 +1,19 @@
+
+
 # ###################REGRESION LOGISTICA###################
- #
+#
 # En este proyecto implementaremos una regresion logistica con el uso de un 
 # framework
+# Con un set de datos obtenidos de Kaggle, vamos a predecir si los estudiantes aprobaron
+# o reprobaron segun sus horas de estudio y gpa.
 
-import numpy as np
-import matplotlib.pyplot as plt
+
+
+# importamos las librarias necesarias para ejecutar el modelo
 import pandas as pd
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-
-
-
-# Iniciamos a entrenar el modelo 
 # Cargamos los datos
 # En mi variable data_path  anexo el path donde se encuentran los datos que quiero utilizar.
 data_path_train = "inputData/gpa_study_hours_train.csv"
@@ -37,11 +35,7 @@ y_train = df_train["graduated"]
 x_test = df_test[["gpa", "study_hours"]]
 y_test = df_test["graduated"]
 
-
-
-
-
-#Definimos la cantidad de iteraciones que se utilizaran en el modelo.
+# Iniciamos a entrenar el modelo 
 
 #Utilizamos la libreria sklearn utilizando regrsion logistica.
 model = LogisticRegression(penalty='none', max_iter=1000)
