@@ -61,7 +61,7 @@ for _ in range(iterations):
 
 # Paso 4: Hacer predicciones con el modelo entrenado
 #ingresamos un nuevo valor en x que equivale un valor de GPA, cuanto tengo que estudiar para obtener esta calificacion?
-nuevo_x = 4
+nuevo_x = 3.7
 #una vez que entrenamos nuestros theta 0 y theta 1, predecimos el valor de y
 predicted_y = θ * nuevo_x + b
 print("Predicted y:", predicted_y)
