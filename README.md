@@ -17,7 +17,7 @@ link : https://www.kaggle.com/datasets/joebeachcapital/gpa-study-hours?select=gp
 Implementaciones
 
 En esta carpeta tenemos todas las implementaciones que han sido realizadas hasta ahora. la regresion lineal que fue fue creada sin el uso de 
-un framework y la regresion logistica que fue creada con la libreria sklearn. Cada una de las carpetas tiene su respectivo README.
+un framework (ImplementacionSinFramework) y la regresion logistica que fue creada con la libreria sklearn (ImplementacionConFramework). Cada una de las carpetas tiene su respectivo README.
 
 Modulo4
 
