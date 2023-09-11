@@ -94,7 +94,7 @@ print(f'R² ajustado en validation: {r2_validation:.2f}')
 
 
 
-# Realizar cross-validation con k-fold 
+# Realizar cross-validation con k-fold, nos sirve para verificar que el modelo no haya sobreajustado los datos de entrenamiento
 k = 4
 scores = cross_val_score(model, x_train, y_train, cv=k, scoring='accuracy')
 
