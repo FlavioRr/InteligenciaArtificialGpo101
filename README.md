@@ -3,7 +3,7 @@ Repositorio para la clase Inteligencia artificial avanzada para la ciencia de da
 
 ## Carpetas
 
-BenjiEjemplos
+### BenjiEjemplos
 
 En esta carpeta estan los ejemplos de regression lineal y regresion logistica proporcionados por el profesor.
 
