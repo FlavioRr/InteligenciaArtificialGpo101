@@ -22,7 +22,7 @@ ImplementacionSinFramework: regresion lineal que fue creada sin el uso de un fra
 
 ImplementacionConFramework: regresion logistica que fue creada con la libreria sklearn con su respectivo analisis.
 
-Análisis y Reporte sobre el desempeño del modelo: Analisis del modelo de regresion logistica realizado con framework dentro de la carpeta ImplementacionConFramework.
+ImplementacionDeepLearning: Implementación de un modelo de deep learning.
 
 Cada una de las carpetas tiene su respectivo README.
 
