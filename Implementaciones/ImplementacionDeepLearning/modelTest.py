@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Construir la ruta completa al archivo de imagen en el mismo directorio que el script
-image_name = "man_9762.jpg"
+image_name = "NoBinario.jpg"
 image_path = os.path.join(script_directory, image_name)
 
 # Cargar el modelo previamente guardado

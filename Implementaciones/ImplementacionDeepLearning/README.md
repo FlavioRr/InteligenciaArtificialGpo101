@@ -20,6 +20,8 @@ Implementación de un modelo de deep learning.pdf = Este documento tiene el anal
 
 man_9762.jpg = Esta foto es un ejemplo para ser utilizado en el archivo modelTest.py. Tiene como proposito demostrar que el modelo funciona.
 
+woman_51.jpg = Esta foto es un ejemplo para ser utilizado en el archivo modelTest.py. Tiene como proposito demostrar que el modelo funciona.
+
 ## H5
 
 vgg_man_woman_model.h5 = este es el modelo guardado del ipynb.
